@@ -1,9 +1,10 @@
 import Layout from "../components/Layout";
+import About from "../components/About";
+
+import "../scss/app.scss";
 
 export default () => (
   <Layout>
-    <p>
-      <h1>About Us</h1>
-    </p>
+    <About />
   </Layout>
 );
