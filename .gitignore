@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+npm-debug.log
+*.sqlite3
+.idea/
+.env
+.vscode
+
+/client/public/js/*.bundle.js
+/client/public/css/*.bundle.css
+package-lock.json
+.next/
+yarn-error.log
