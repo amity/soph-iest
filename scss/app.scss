@@ -1,7 +1,17 @@
 @import "./avenir.css";
 @import "./fontello.css";
 @import "./variables";
+@import "./about";
 
 p {
   color: blue;
+}
+
+body {
+  font-family: Avenir Next;
+  background-color: pink;
+  margin: 20;
+  padding: 20;
+  text-align: center;
+  border: 1px solid black;
 }

@@ -1,15 +1,8 @@
 import Header from "./Header";
 
-const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  textAlign: "center",
-  border: "1px solid black"
-};
-
 const Layout = props => {
   return (
-    <div style={layoutStyle}>
+    <div>
       <Header />
       {props.children}
     </div>
