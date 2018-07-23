@@ -4,7 +4,7 @@ import Home from "../components/Home";
 import "../scss/app.scss";
 
 export default () => (
-  <Layout>
+  <Layout title="Next.js App">
     <Home />
   </Layout>
 );

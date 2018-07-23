@@ -1,17 +1,11 @@
-import Header from "./Header";
-
-const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  textAlign: "center",
-  border: "1px solid black"
-};
+import HeadComp from "./Head";
+import Navbar from "./Navbar";
 
 const Layout = props => {
   return (
-    <div style={layoutStyle}>
-      <Header />
-      {props.children}
+    <div>
+      <HeadComp title={props.title} />
+      <Navbar /> {props.children}
     </div>
   );
 };
