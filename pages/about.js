@@ -4,7 +4,7 @@ import About from "../components/About";
 import "../scss/app.scss";
 
 export default () => (
-  <Layout>
+  <Layout title="About">
     <About />
   </Layout>
 );

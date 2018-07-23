@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Header = () => (
+const Navbar = () => (
   <div className="navbar">
     <Link href="/">
       <a>Home</a>
@@ -10,14 +10,10 @@ const Header = () => (
       <a> About Us </a>
     </Link>
 
-    <Link href="/pledge">
-      <a> The Pledge </a>
-    </Link>
-
-    <Link href="/template">
-      <a> For Your Organization </a>
+    <Link href="/info">
+      <a> Info </a>
     </Link>
   </div>
 );
 
-export default Header;
+export default Navbar;
