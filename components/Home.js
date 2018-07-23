@@ -7,6 +7,10 @@ const Index = () => {
       <Link href="/about">
         <a>About us!</a>
       </Link>
+
+      <Link href="/pledge">
+        <a>Sign the Pledge!</a>
+      </Link>
     </div>
   );
 };

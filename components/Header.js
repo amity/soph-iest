@@ -1,17 +1,21 @@
 import Link from "next/link";
 
-const LinkStyle = {
-  marginLeft: 15
-};
-
 const Header = () => (
-  <div>
-    <Link href="/" style={LinkStyle}>
-      <a style={LinkStyle}>Home</a>
+  <div className="navbar">
+    <Link href="/">
+      <a>Home</a>
     </Link>
 
     <Link href="/about">
-      <a style={LinkStyle}> About Us </a>
+      <a> About Us </a>
+    </Link>
+
+    <Link href="/pledge">
+      <a> The Pledge </a>
+    </Link>
+
+    <Link href="/template">
+      <a> For Your Organization </a>
     </Link>
   </div>
 );
