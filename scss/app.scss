@@ -3,6 +3,7 @@
 @import "./variables";
 @import "./about";
 @import "./navbar";
+@import "./footer";
 
 p {
   color: $blue;
@@ -10,9 +11,10 @@ p {
 
 body {
   font-family: Avenir Next;
-  background-color: pink;
-  margin: 20px;
-  padding: 20px;
+  // background-color: $lighter-blue;
   text-align: center;
-  border: 1px solid black;
+}
+
+.componentsDiv {
+  margin: 30px;
 }

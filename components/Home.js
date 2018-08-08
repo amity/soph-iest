@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { translate } from "react-i18next";
 
-const Index = () => {
+const Home = ({ t }) => {
   return (
     <div>
-      <p> Heyo </p>
+      <p> {t("home:header")} </p>
       <Link href="/about">
         <a>About us!</a>
       </Link>
@@ -15,4 +16,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default translate("home")(Home);

@@ -1,13 +1,18 @@
 import HeadComp from "./Head";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
-const Layout = props => {
-  return (
-    <div>
-      <HeadComp title={props.title} />
-      <Navbar /> {props.children}
-    </div>
-  );
-};
+export class Layout extends React.Component {
+  render() {
+    return (
+      <div id="top" className="wrapper">
+        <HeadComp title={this.props.title} />
+        <Navbar currentPage={this.props.currentPage} />
+        <div className="componentsDiv">{this.props.children}</div>
+        <Footer />
+      </div>
+    );
+  }
+}
 
 export default Layout;

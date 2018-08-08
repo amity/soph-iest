@@ -4,19 +4,25 @@
   * Colors created from logo, except neutrals.
   **/
 
-$blue: #4992ca;
-$green: #55b491;
-$green-alt: #61b159;
-$dark-blue: #436cad;
-$orange: #de713b;
+//   https://color.adobe.com/create/color-wheel/?base=0&rule=Custom&selected=2&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.9607843137254902,0.6627450980392157,0.7215686274509804,0.2151093779936311,0.3467787093158362,0.7107843137254902,0.2584146135076401,0.43623401764455305,0.6784313725490196,0.21078431372549022,0.1453981592637055,0.15830332132852204,0.4588235294117647,0.1803921568627451,0.23529411764705882&swatchOrder=0,1,2,3,4
+
+$pink: #f5a9b8;
+$pink-transp: rgba(245, 169, 184, 0.7);
+$wine: #752e3c;
+$blue: #3758b5;
+$green: #377542;
+$blue-modal: rgba(55, 88, 181, 0.7);
+$green-modal: rgba(19, 151, 0, 0.7);
+$lighter-blue: #426fad;
 $black: #000000;
 $white: #fff;
-$blue-modal: rgba(67, 108, 173, 0.95);
+$mid-grey: rgba(255, 255, 255, 0.5);
 $dark-black: #333333;
 $darker-black: #222222;
 $dark-grey: #424242;
 $grey: #777777;
 $light-grey: #bbb;
+$lighter-grey: #fff;
 $google-btn: #dd4b39;
 $google-btn-hover: #e74b37;
 $google-border: #bb3f30;
