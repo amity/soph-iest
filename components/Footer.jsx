@@ -8,7 +8,7 @@ const Footer = () => {
             {/* Grid column */}
             <div className="col-md-6 mt-md-0 mt-3">
               {/* Content */}
-              <h5 className="text-uppercase footer-head">Footer Content</h5>
+              <h5 className="text-lowercase footer-head">Footer Content</h5>
               <p className="footer-text">
                 Here you can use rows and columns here to organize your footer
                 content.
@@ -21,7 +21,7 @@ const Footer = () => {
             {/* Grid column */}
             <div className="col-md-3 mb-md-0 mb-3">
               {/* Links */}
-              <h5 className="text-uppercase footer-head">Links</h5>
+              <h5 className="text-lowercase footer-head">Links</h5>
 
               <ul className="list-unstyled">
                 <li>
@@ -46,7 +46,7 @@ const Footer = () => {
             {/* Grid column */}
             <div className="col-md-3 mb-md-0 mb-3">
               {/* Links */}
-              <h5 className="text-uppercase footer-head">Links</h5>
+              <h5 className="text-lowercase footer-head">Links</h5>
 
               <ul className="list-unstyled">
                 <li>

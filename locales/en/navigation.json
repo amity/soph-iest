@@ -1,4 +1,11 @@
 {
   "switch-lang": "日本語",
-  "switch-lang-link": "?lng=jp"
+  "switch-lang-link": "?lng=jp",
+
+  "home": "home",
+  "about": "about",
+  "projects": "projects",
+  "resume": "résumé",
+  "other": "other sites",
+  "data": "data visualization"
 }

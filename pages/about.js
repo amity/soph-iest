@@ -3,13 +3,13 @@ import i18n from "../i18n";
 import i18nConfig from "../i18nConfig";
 
 import Layout from "../components/Layout";
-import About from "../components/About";
+import Accordion from "../components/common/Accordion";
 
 import "../scss/app.scss";
 
 const AboutPage = () => (
   <Layout title="About" currentPage="/about">
-    <About />
+    <Accordion />
   </Layout>
 );
 

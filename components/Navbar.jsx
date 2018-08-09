@@ -28,19 +28,23 @@ const Navbar = ({ currentPage, t }) => {
           <li className="nav-item">
             <Link href="/">
               <a className={"nav-link " + navItemCurrent("/")}>
-                {t("navigation:home")}{" "}
+                {t("navigation:home")}
                 <span className="sr-only">(current)</span>
               </a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href="/about">
-              <a className={"nav-link " + navItemCurrent("/about")}>About</a>
+              <a className={"nav-link " + navItemCurrent("/about")}>
+                {t("navigation:about")}
+              </a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href="/portfolio">
-              <a className={"nav-link " + navItemCurrent("/portfolio")}>Work</a>
+              <a className={"nav-link " + navItemCurrent("/portfolio")}>
+                {t("navigation:projects")}
+              </a>
             </Link>
           </li>
           <li className="nav-item dropdown">
@@ -53,7 +57,7 @@ const Navbar = ({ currentPage, t }) => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Other Sites
+              {t("navigation:other")}
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link href="/page1">
@@ -63,7 +67,8 @@ const Navbar = ({ currentPage, t }) => {
                 className="dropdown-item"
                 href="https://journeys.dartmouth.edu/nneumann/"
               >
-                Data Visualizations <span /> <i className="far fa-chart-bar" />
+                {t("navigation:data")} <span />{" "}
+                <i className="far fa-chart-bar" />
               </a>
               <div className="dropdown-divider" />
 
@@ -71,7 +76,7 @@ const Navbar = ({ currentPage, t }) => {
                 className="dropdown-item"
                 href="https://github.com/NateNeumann/"
               >
-                GitHub <span />
+                github <span />
                 <i className="fab fa-github" />
               </a>
             </div>

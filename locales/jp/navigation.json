@@ -1,4 +1,11 @@
 {
   "switch-lang": "English",
-  "switch-lang-link": "?lng=en"
+  "switch-lang-link": "?lng=en",
+
+  "home": "トップ",
+  "about": "私について",
+  "projects": "プロジェクト",
+  "resume": "履歴書",
+  "other": "私の他のページ",
+  "data": "可視化ブログ"
 }
