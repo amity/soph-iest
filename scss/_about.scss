@@ -6,3 +6,20 @@ h1 {
   margin: 20px;
   text-align: left;
 }
+
+.about-section {
+  text-align: left;
+  color: $light-grey;
+
+  .about-section-header {
+    color: $white;
+    padding-bottom: 10px;
+    // padding-left: 10vh;
+  }
+}
+
+.about {
+  hr {
+    margin: 7vh;
+  }
+}

@@ -5,16 +5,21 @@
 @import "./navbar";
 @import "./footer";
 
-p {
-  color: $blue;
-}
-
 body {
   font-family: Avenir Next;
   // background-color: $lighter-blue;
   text-align: center;
+  background-color: $less-dark;
 }
 
 .componentsDiv {
-  margin: 30px;
+  padding: 10vh;
+}
+
+a {
+  color: $pink;
+}
+
+hr {
+  border-color: $pink-transp;
 }

@@ -1,10 +1,12 @@
 import { translate } from "react-i18next";
+import Carousel from "./common/Carousel";
 
 const Portfolio = ({ t }) => {
   return (
-    <p>
-      <h1> {t("portfolio:header")} This is the portfolio. </h1>
-    </p>
+    <div className="portfolio-div">
+      <h1> {t("portfolio:header")} </h1>
+      <Carousel img1="" img2="" img3="" />
+    </div>
   );
 };
 

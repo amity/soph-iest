@@ -1,7 +1,6 @@
 import Head from "next/head";
 
 const HeadComp = props => {
-  console.log(props);
   return (
     <div>
       <Head>
