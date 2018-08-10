@@ -3,18 +3,18 @@ import i18n from "../i18n";
 import i18nConfig from "../i18nConfig";
 
 import Layout from "../components/Layout";
-import Portfolio from "../components/Portfolio";
+import Resume from "../components/Resume";
 
 import "../scss/app.scss";
 
-const PortfolioPage = () => (
-  <Layout title="Portfolio" currentPage="/portfolio">
-    <Portfolio />
+const ResumePage = () => (
+  <Layout title="résumé" currentPage="/resume">
+    <Resume />
   </Layout>
 );
 
 const Extended = translate(i18nConfig.ns, { i18n, wait: process.browser })(
-  PortfolioPage
+  ResumePage
 );
 
 Extended.getInitialProps = async ({ req }) =>

@@ -2,7 +2,9 @@
 @import "./fontello.css";
 @import "./variables";
 @import "./about";
+@import "./carousel";
 @import "./navbar";
+@import "./projects";
 @import "./footer";
 
 body {
@@ -22,4 +24,30 @@ a {
 
 hr {
   border-color: $pink-transp;
+}
+
+.home-header {
+  font-size: 3rem;
+  margin: 1rem;
+
+  &.home-header-1 {
+    font-size: 5rem;
+    color: $pink;
+  }
+  // I really gotta name these all better.
+  &.home-header-2 {
+    color: $off-white;
+  }
+  &.home-header-3 {
+    color: $light-grey;
+  }
+  &.home-header-4 {
+    color: $less-light;
+  }
+  &.home-header-5 {
+    color: $dark-grey;
+    &:hover {
+      color: $pink-very-transp;
+    }
+  }
 }

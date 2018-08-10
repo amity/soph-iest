@@ -41,9 +41,16 @@ const Navbar = ({ currentPage, t }) => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/portfolio">
-              <a className={"nav-link " + navItemCurrent("/portfolio")}>
+            <Link href="/projects">
+              <a className={"nav-link " + navItemCurrent("/projects")}>
                 {t("navigation:projects")}
+              </a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/resume">
+              <a className={"nav-link " + navItemCurrent("/resume")}>
+                {t("navigation:resume")}
               </a>
             </Link>
           </li>
@@ -60,9 +67,9 @@ const Navbar = ({ currentPage, t }) => {
               {t("navigation:other")}
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link href="/page1">
+              {/* <Link href="/page1">
                 <a className="dropdown-item">Another Site</a>
-              </Link>
+              </Link> */}
               <a
                 className="dropdown-item"
                 href="https://journeys.dartmouth.edu/nneumann/"
