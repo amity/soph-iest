@@ -12,9 +12,10 @@ const Footer = ({ t }) => {
               {/* Content */}
               <h5 className="text-lowercase footer-head">soph-iest</h5>
               <p className="footer-text">
-                Please excuse the mess, this site is a work in progress. <br />
-                It is built with Next.js, and the Japanese version is done using
-                react-i18next. <br />
+                Please excuse the mess, this site is a work in progress, and
+                I&apos;m not a designer by trade. <br />
+                It is built with Next.js, and the multiple-languages versions
+                are supported by react-i18next. <br />
                 The full source code can be seen in{" "}
                 <a href="https://github.com/NateNeumann/soph-iest">
                   the site repo.
@@ -96,13 +97,13 @@ const Footer = ({ t }) => {
         {/* Footer Links */}
 
         {/* Copyright */}
-        <div className="footer-copyright text-center py-3">
+        {/* <div className="footer-copyright text-center py-3">
           © 2018 Copyright:
           <a href="https://mdbootstrap.com/bootstrap-tutorial/">
             {" "}
             MDBootstrap.com
           </a>
-        </div>
+        </div> */}
         {/* Copyright */}
       </footer>
     </div>

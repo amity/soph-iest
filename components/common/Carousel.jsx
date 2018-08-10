@@ -46,14 +46,17 @@ let Carousel = props => {
           </a>
         </div>
       </div>
+
       <a
         className="carousel-control-prev"
         href="#carouselExampleIndicators"
         role="button"
         data-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="sr-only">Previous</span>
+        <div className="carousel-control-button">
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="sr-only">Previous</span>
+        </div>
       </a>
       <a
         className="carousel-control-next"
@@ -61,8 +64,10 @@ let Carousel = props => {
         role="button"
         data-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="sr-only">Next</span>
+        <div className="carousel-control-button">
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="sr-only">Next</span>
+        </div>
       </a>
     </div>
   );

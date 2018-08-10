@@ -7,3 +7,13 @@
     text-decoration: underline;
   }
 }
+
+.carousel-control-button {
+  height: 30px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: $dark-grey-modal;
+}
