@@ -7,7 +7,7 @@ const path = require("path");
 
 const i18n = require("./i18n");
 const i18nConfig = require("./i18nConfig");
-const routes = require("./server/routes");
+// const routes = require("./server/routes");
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });

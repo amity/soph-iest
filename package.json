@@ -23,7 +23,8 @@
     "url-loader": "^1.0.1"
   },
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "next build"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
