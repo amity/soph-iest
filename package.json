@@ -24,7 +24,8 @@
   },
   "scripts": {
     "dev": "node server.js",
-    "build": "next build"
+    "build": "next build",
+    "export": "next export"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
