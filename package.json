@@ -1,12 +1,13 @@
 {
-  "name": "future-japan-initiative",
+  "name": "soph-iest",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
     "css-loader": "^1.0.0",
     "express": "^4.16.3",
+    "heroku": "^7.7.8",
     "i18next": "^11.5.0",
     "i18next-browser-languagedetector": "^2.1.0",
     "i18next-express-middleware": "^1.2.1",
@@ -23,9 +24,9 @@
     "url-loader": "^1.0.1"
   },
   "scripts": {
-    "dev": "node server.js",
+    "dev": "cross-env NODE_ENV=development node server.js",
     "build": "next build",
-    "export": "next export"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
