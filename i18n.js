@@ -15,7 +15,7 @@ const options = {
   interpolation: {
     escapeValue: false,
     formatSeparator: ",",
-    format: (value, format) => {
+    formazt: (value, format) => {
       if (format === "uppercase") {
         return value.toUpperCase();
       }

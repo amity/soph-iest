@@ -1,6 +1,4 @@
-import { translate } from "react-i18next";
-
-const Footer = ({ t }) => {
+const Footer = () => {
   return (
     <div>
       <footer className="page-footer font-small navbar-dark bg-dark pt-4">
@@ -29,29 +27,27 @@ const Footer = ({ t }) => {
             {/* Grid column */}
             <div className="col-md-3 mb-md-0 mb-3">
               {/* Links */}
-              <h5 className="text-lowercase footer-head">
-                {t("navigation:pages")}
-              </h5>
+              <h5 className="text-lowercase footer-head">pages</h5>
 
               <ul className="list-unstyled">
                 <li>
                   <a className="footer-link" href="/about">
-                    {t("navigation:about")}
+                    about
                   </a>
                 </li>
                 <li>
                   <a className="footer-link" href="/projects">
-                    {t("navigation:projects")}
+                    projects
                   </a>
                 </li>
                 <li>
                   <a className="footer-link" href="/resume">
-                    {t("navigation:resume")}
+                    résumé
                   </a>
                 </li>
                 <li>
                   <a className="footer-link" href="/contact">
-                    {t("navigation:contact")}
+                    contact
                   </a>
                 </li>
               </ul>
@@ -110,4 +106,4 @@ const Footer = ({ t }) => {
   );
 };
 
-export default translate("navigation")(Footer);
+export default Footer;

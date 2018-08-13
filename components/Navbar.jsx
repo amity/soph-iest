@@ -1,7 +1,6 @@
-import { translate } from "react-i18next";
 import Link from "next/link";
 
-const Navbar = ({ currentPage, t }) => {
+const Navbar = ({ currentPage }) => {
   function navItemCurrent(destination) {
     return destination == currentPage ? "active" : "";
   }
@@ -28,30 +27,26 @@ const Navbar = ({ currentPage, t }) => {
           <li className="nav-item">
             <Link href="/">
               <a className={"nav-link " + navItemCurrent("/")}>
-                {t("navigation:home")}
+                soph-iest
                 <span className="sr-only">(current)</span>
               </a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href="/about">
-              <a className={"nav-link " + navItemCurrent("/about")}>
-                {t("navigation:about")}
-              </a>
+              <a className={"nav-link " + navItemCurrent("/about")}>about</a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href="/projects">
               <a className={"nav-link " + navItemCurrent("/projects")}>
-                {t("navigation:projects")}
+                projects
               </a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href="/resume">
-              <a className={"nav-link " + navItemCurrent("/resume")}>
-                {t("navigation:resume")}
-              </a>
+              <a className={"nav-link " + navItemCurrent("/resume")}>résumé</a>
             </Link>
           </li>
           <li className="nav-item dropdown">
@@ -64,7 +59,7 @@ const Navbar = ({ currentPage, t }) => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              {t("navigation:other")}
+              external pages
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               {/* <Link href="/page1">
@@ -74,8 +69,7 @@ const Navbar = ({ currentPage, t }) => {
                 className="dropdown-item"
                 href="https://journeys.dartmouth.edu/nneumann/"
               >
-                {t("navigation:data")} <span />{" "}
-                <i className="far fa-chart-bar" />
+                data visualization <span /> <i className="far fa-chart-bar" />
               </a>
               <div className="dropdown-divider" />
 
@@ -88,18 +82,18 @@ const Navbar = ({ currentPage, t }) => {
               </a>
             </div>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               className="nav-link lang-link active"
               href={t("navigation:switch-lang-link")}
             >
               {t("navigation:switch-lang")}
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
   );
 };
 
-export default translate("navigation")(Navbar);
+export default Navbar;

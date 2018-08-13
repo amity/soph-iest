@@ -1,15 +1,10 @@
-import { translate } from "react-i18next";
-
-const Resume = ({ t }) => {
+const Resume = () => {
   return (
     <div className="resume-div">
-      <h1 className="work-header">{t("resume:header")}</h1>
+      <h1 className="work-header">résumé</h1>
       <h4 className="resume-subheader">
-        {t("resume:subheader")}
-        <a href="mailto:sophie.a.debs@gmail.com">
-          {t("resume:subheader-email")}
-        </a>
-        {t("resume:subheader-2")}
+        for inquiries, please contact me at
+        <a href="mailto:sophie.a.debs@gmail.com">sophie.a.debs@gmail.com</a>.
       </h4>
       <object
         className="pdf-object"
@@ -33,4 +28,4 @@ const Resume = ({ t }) => {
   );
 };
 
-export default translate("projects")(Resume);
+export default Resume;
