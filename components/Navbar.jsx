@@ -27,7 +27,7 @@ const Navbar = ({ currentPage }) => {
           <li className="nav-item">
             <Link href="/">
               <a className={"nav-link " + navItemCurrent("/")}>
-                soph-iest
+                home
                 <span className="sr-only">(current)</span>
               </a>
             </Link>
