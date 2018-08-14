@@ -346,3 +346,6 @@ hr {
     color: #424242; }
     .home-header.home-header-5:hover {
       color: rgba(245, 169, 184, 0.3); }
+
+.greyscale-3 {
+  color: rgba(255, 255, 255, 0.5); }
