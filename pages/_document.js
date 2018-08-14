@@ -25,6 +25,7 @@ export default class MyDocument extends Document {
           />
 
           <title>soph-iest</title>
+          <link rel="icon" href="favicon.ico" type="image/x-icon" />
           <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"

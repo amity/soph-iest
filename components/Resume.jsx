@@ -3,7 +3,7 @@ const Resume = () => {
     <div className="resume-div">
       <h1 className="work-header">résumé</h1>
       <h4 className="resume-subheader">
-        for inquiries, please contact me at
+        for inquiries, please contact me at&nbsp;
         <a href="mailto:sophie.a.debs@gmail.com">sophie.a.debs@gmail.com</a>.
       </h4>
       <object
