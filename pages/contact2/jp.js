@@ -2,14 +2,14 @@
 // import i18n from "../i18n";
 // import i18nConfig from "../i18nConfig";
 
-import Layout from "../components/Layout";
-import Contact from "../components/Contact";
+import Layout from "../../components/Layout";
+import About from "../../components/About";
 
-import "../scss/app.scss";
+import "../../scss/app.scss";
 
 const ContactPage = () => (
   <Layout title="Contact" currentPage="/contact">
-    <Contact />
+    <About />
   </Layout>
 );
 
