@@ -1,8 +1,15 @@
-const Contact = () => {
+const Contact = props => {
+  // const pageText = () => {
+  //   return props.jp ? { section1: "jp" } : { section1: "english" };
+  // };
+  // const pageText = props.jp ? { section1: "jp" } : { section1: "english" };
+  const pageText = props.jp;
+
   return (
     <div className="contact-div">
       <h1 className="work-header">contact</h1>
       <h4 className="resume-subheader">
+        {pageText ? "jp" : "english"}
         For inquiries, please contact me at&nbsp;
         <a href="mailto:sophie.a.debs@gmail.com">
           sophie.a.debs@gmail.com

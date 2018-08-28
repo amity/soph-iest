@@ -3,13 +3,13 @@
 // import i18nConfig from "../i18nConfig";
 
 import Layout from "../../components/Layout";
-import About from "../../components/About";
+import Contact from "../../components/Contact";
 
 import "../../scss/app.scss";
 
 const ContactPage = () => (
   <Layout title="Contact" currentPage="/contact">
-    <About />
+    <Contact jp={true} />
   </Layout>
 );
 
