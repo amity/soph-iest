@@ -235,29 +235,6 @@
   content: "\F2E0"; }
 
 /* '' */
-/**
-  * Colors
-  * ------
-  * Colors created from logo, except neutrals.
-  **/
-/* For alerts */
-/**
-    * Measurements
-    * ------------
-    * Create a base unit in px. This will be the rem unit in pixels.
-    * All other measurements must use ems or rems, or be based of another measurement.
-    */
-/**
-    * Define font sizes by rems.
-    */
-/**
-    * Define some font weights that work for your fonts.
-    */
-/**
-    * Miscellaneous
-    * -------------
-    * Any other properties you want to set as a variable.
-    */
 .about-section {
   text-align: left;
   color: #bbb; }
@@ -267,6 +244,9 @@
 
 .about hr {
   margin: 7vh; }
+
+.carousel {
+  margin-top: 16px; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.4); }
