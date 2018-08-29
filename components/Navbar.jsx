@@ -27,26 +27,30 @@ const Navbar = ({ currentPage, jp }) => {
           <li className="nav-item">
             <Link href={jp ? "/jp" : "/"}>
               <a className={"nav-link " + navItemCurrent("/")}>
-                {jp ? "jphome" : "home"}
+                {jp ? "トップ" : "home"}
                 <span className="sr-only">(current)</span>
               </a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href={jp ? "/about/jp" : "/about"}>
-              <a className={"nav-link " + navItemCurrent("/about")}>about</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/projects">
-              <a className={"nav-link " + navItemCurrent("/projects")}>
-                projects
+              <a className={"nav-link " + navItemCurrent("/about")}>
+                {jp ? "私について" : "about"}
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/resume">
-              <a className={"nav-link " + navItemCurrent("/resume")}>résumé</a>
+            <Link href={jp ? "/projects/jp" : "/projects"}>
+              <a className={"nav-link " + navItemCurrent("/projects")}>
+                {jp ? "プロジェクト" : "projects"}
+              </a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href={jp ? "/resume/jp" : "/resume"}>
+              <a className={"nav-link " + navItemCurrent("/resume")}>
+                {jp ? "履歴書" : "résumé"}
+              </a>
             </Link>
           </li>
           <li className="nav-item dropdown">
@@ -59,7 +63,7 @@ const Navbar = ({ currentPage, jp }) => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              external pages
+              {jp ? "私の他のページ" : "external pages"}
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               {/* <Link href="/page1">
@@ -69,7 +73,8 @@ const Navbar = ({ currentPage, jp }) => {
                 className="dropdown-item"
                 href="https://journeys.dartmouth.edu/nneumann/"
               >
-                data visualization <span /> <i className="far fa-chart-bar" />
+                {jp ? "可視化ブログ" : "data visualization"} <span />{" "}
+                <i className="far fa-chart-bar" />
               </a>
               <div className="dropdown-divider" />
 
@@ -82,14 +87,21 @@ const Navbar = ({ currentPage, jp }) => {
               </a>
             </div>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
+            <Link href={jp ? "/contact/jp" : "/contact"}>
+              <a className={"nav-link " + navItemCurrent("/contact")}>
+                {jp ? "お問い合わせ" : "contact"}
+              </a>
+            </Link>
+          </li>
+          <li className="nav-item">
             <a
               className="nav-link lang-link active"
-              href={t("navigation:switch-lang-link")}
+              href={jp ? currentPage : currentPage + "/jp"}
             >
-              {t("navigation:switch-lang")}
+              {jp ? "english" : "日本語"}
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

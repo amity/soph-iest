@@ -1,7 +1,4 @@
-// import { translate } from "react-i18next";
-
 let Carousel = props => {
-  // let t = props.t;
   return (
     <div
       id="carouselExampleIndicators"

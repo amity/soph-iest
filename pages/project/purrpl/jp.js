@@ -9,8 +9,8 @@ const Purrpl = () => {
     github: "https://github.com/NateNeumann/purrpl-api"
   };
   return (
-    <Layout title="About" currentPage="/about">
-      <Project data={purrplData} />
+    <Layout jp={true} title="purrpl" currentPage="/projects">
+      <Project jp={true} data={purrplData} />
     </Layout>
   );
 };

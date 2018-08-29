@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = ({ jp }) => {
   return (
     <div>
       <footer className="page-footer font-small navbar-dark bg-dark pt-4">
@@ -12,8 +12,9 @@ const Footer = () => {
               <p className="footer-text">
                 Please excuse the mess, this site is a work in progress, and
                 I&apos;m not a designer by trade. <br />
-                It is built with Next.js, and the multiple-languages versions
-                are supported by react-i18next. <br />
+                It is built with Next.js, and the internationalization is
+                supported by a translation-friendly structure for static sites I
+                developed for personal use. <br />
                 The full source code can be seen in{" "}
                 <a href="https://github.com/NateNeumann/soph-iest">
                   the site repo.
@@ -27,27 +28,29 @@ const Footer = () => {
             {/* Grid column */}
             <div className="col-md-3 mb-md-0 mb-3">
               {/* Links */}
-              <h5 className="text-lowercase footer-head">pages</h5>
+              <h5 className="text-lowercase footer-head">
+                {jp ? "ページ" : "pages"}
+              </h5>
 
               <ul className="list-unstyled">
                 <li>
                   <a className="footer-link" href="/about">
-                    about
+                    {jp ? "私について" : "about"}
                   </a>
                 </li>
                 <li>
                   <a className="footer-link" href="/projects">
-                    projects
+                    {jp ? "プロジェクト" : "projects"}
                   </a>
                 </li>
                 <li>
                   <a className="footer-link" href="/resume">
-                    résumé
+                    {jp ? "履歴書" : "résumé"}
                   </a>
                 </li>
                 <li>
                   <a className="footer-link" href="/contact">
-                    contact
+                    {jp ? "お問い合わせ" : "contact"}
                   </a>
                 </li>
               </ul>
@@ -57,7 +60,9 @@ const Footer = () => {
             {/* Grid column */}
             <div className="col-md-3 mb-md-0 mb-3">
               {/* Links */}
-              <h5 className="text-lowercase footer-head">social</h5>
+              <h5 className="text-lowercase footer-head">
+                {jp ? "sns" : "social"}
+              </h5>
 
               <ul className="list-unstyled">
                 <li>
@@ -94,10 +99,9 @@ const Footer = () => {
 
         {/* Copyright */}
         {/* <div className="footer-copyright text-center py-3">
-          © 2018 Copyright:
-          <a href="https://mdbootstrap.com/bootstrap-tutorial/">
-            {" "}
-            MDBootstrap.com
+          © 2018 Copyleft:
+          <a href="">
+            soph-iest
           </a>
         </div> */}
         {/* Copyright */}

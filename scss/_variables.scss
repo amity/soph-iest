@@ -10,17 +10,19 @@ $blue-modal: rgba(55, 88, 181, 0.7);
 $green-modal: rgba(19, 151, 0, 0.7);
 $dark-grey-modal: rgba(0, 0, 0, 0.4);
 $lighter-blue: #426fad;
-$black: #000000;
+
+// This is way too many monotones
 $white: #fff;
 $off-white: #ddd;
+$light-grey: #bbb;
 $mid-grey: rgba(255, 255, 255, 0.5);
-$dark-black: #333333;
-$darker-black: #222222;
 $dark-grey: #424242;
 $grey: #777777;
-$light-grey: #bbb;
 $less-light: #999;
 $less-dark: rgba(52, 58, 64, 0.95);
+$dark-black: #333333;
+$darker-black: #222222;
+$black: #000000;
 
 $unit: 16px !default;
 $unit-major: 7.5rem !default;
