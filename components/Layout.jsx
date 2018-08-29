@@ -7,9 +7,9 @@ export class Layout extends React.Component {
     return (
       <div id="top" className="wrapper">
         <HeadComp title={this.props.title} />
-        <Navbar currentPage={this.props.currentPage} />
+        <Navbar currentPage={this.props.currentPage} jp={this.props.jp} />
         <div className="componentsDiv">{this.props.children}</div>
-        <Footer />
+        <Footer jp={this.props.jp} />
       </div>
     );
   }

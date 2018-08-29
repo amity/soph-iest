@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-const Navbar = ({ currentPage }) => {
+const Navbar = ({ currentPage, jp }) => {
   function navItemCurrent(destination) {
     return destination == currentPage ? "active" : "";
   }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <Link href="/">
+      <Link href={jp ? "/jp" : "/"}>
         <a className="navbar-brand">soph-iest</a>
       </Link>
       <button
@@ -25,15 +25,15 @@ const Navbar = ({ currentPage }) => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link href="/">
+            <Link href={jp ? "/jp" : "/"}>
               <a className={"nav-link " + navItemCurrent("/")}>
-                home
+                {jp ? "jphome" : "home"}
                 <span className="sr-only">(current)</span>
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/about">
+            <Link href={jp ? "/about/jp" : "/about"}>
               <a className={"nav-link " + navItemCurrent("/about")}>about</a>
             </Link>
           </li>
