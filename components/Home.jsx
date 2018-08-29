@@ -10,7 +10,7 @@ const Home = () => {
         </a>
       </Link>
 
-      <a href="https://journeys.dartmouth.edu/nneumann/">
+      <a target="blank" href="https://journeys.dartmouth.edu/nneumann/">
         <h1 className="home-header home-header-3">data analyst</h1>
       </a>
 

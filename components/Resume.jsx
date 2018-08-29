@@ -1,10 +1,11 @@
-const Resume = () => {
+const Resume = ({ jp }) => {
   return (
     <div className="resume-div">
-      <h1 className="work-header">résumé</h1>
+      <h1 className="work-header">{jp ? "履歴書" : "résumé"}</h1>
       <h4 className="resume-subheader">
-        for inquiries, please contact me at&nbsp;
-        <a href="mailto:sophie.a.debs@gmail.com">sophie.a.debs@gmail.com</a>.
+        {jp ? "連絡したい方は、" : "for inquiries, please contact me at "}
+        <a href="mailto:sophie.a.debs@gmail.com">sophie.a.debs@gmail.com</a>
+        {jp ? " にメールしてください。" : "."}
       </h4>
       <object
         className="pdf-object"

@@ -1,9 +1,0 @@
-{
-  "header": "プロジェクト",
-  "carousel-header-1": "purrpl: a self-care app featuring cats",
-  "carousel-descrip-1": "Client created with React Native, API with Express and MongoDB",
-  "carousel-header-2": "MuseumTour: experimental live location-sensing implementation using Bluetooth beacons",
-  "carousel-descrip-2": "Client built natively for Android devices",
-  "carousel-header-3": "Check out my GitHub to see my other projects!",
-  "carousel-descrip-3": "Chrome extensions, Electron apps, tutorials, and more!"
-}

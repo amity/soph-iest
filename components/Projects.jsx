@@ -1,9 +1,9 @@
 import Carousel from "./common/Carousel";
 
-const Projects = () => {
+const Projects = ({ jp }) => {
   return (
     <div className="projects-div">
-      <h1 className="work-header"> projects </h1>
+      <h1 className="work-header"> {jp ? "プロジェクト" : "projects"} </h1>
       <Carousel
         img1="../static/img/purrpl-comp.png"
         img2="../static/img/museumtour-comp.jpg"
