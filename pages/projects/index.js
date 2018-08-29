@@ -1,7 +1,7 @@
-import Layout from "../../components/Layout";
-import Projects from "../../components/Projects";
+import Layout from "components/Layout";
+import Projects from "components/Projects";
 
-import "../scss/app.scss";
+import "scss/app.scss";
 
 const ProjectsPage = () => (
   <Layout title="Projects" currentPage="/projects">

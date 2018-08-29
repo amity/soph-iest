@@ -1,7 +1,7 @@
-import Layout from "../../components/Layout";
-import Contact from "../../components/Contact";
+import Layout from "components/Layout";
+import Contact from "components/Contact";
 
-import "../../scss/app.scss";
+import "scss/app.scss";
 
 const ContactPage = () => (
   <Layout title="Contact" currentPage="/contact">

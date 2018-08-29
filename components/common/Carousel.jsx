@@ -8,7 +8,7 @@ let Carousel = props => {
       className="carousel slide"
       data-ride="carousel"
     >
-      <ol className="carousel-indicators">
+      <ol className="carousel-indicators indicators-top">
         <li
           data-target="#carouselExampleIndicators"
           data-slide-to="0"

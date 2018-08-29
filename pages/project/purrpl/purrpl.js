@@ -1,7 +1,7 @@
-import Layout from "../../components/Layout";
-import Project from "../../components/common/Project";
+import Layout from "components/Layout";
+import Project from "components/common/Project";
 
-import "../../scss/app.scss";
+import "scss/app.scss";
 
 const Purrpl = () => {
   let purrplData = {
