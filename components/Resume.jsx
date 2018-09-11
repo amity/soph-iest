@@ -1,36 +1,32 @@
-import { translate } from "react-i18next";
-
-const Resume = ({ t }) => {
+const Resume = ({ jp }) => {
   return (
     <div className="resume-div">
-      <h1 className="work-header">{t("resume:header")}</h1>
+      <h1 className="work-header">{jp ? "履歴書" : "résumé"}</h1>
       <h4 className="resume-subheader">
-        {t("resume:subheader")}
-        <a href="mailto:sophie.a.debs@gmail.com">
-          {t("resume:subheader-email")}
-        </a>
-        {t("resume:subheader-2")}
+        {jp ? "連絡したい方は、" : "for inquiries, please contact me at "}
+        <a href="mailto:sophie.a.debs@gmail.com">sophie.a.debs@gmail.com</a>
+        {jp ? " にメールしてください。" : "."}
       </h4>
       <object
         className="pdf-object"
-        data="static/pdf/nathan-neumann-resume-eng.pdf"
+        data="../static/pdf/nathan-neumann-resume-eng.pdf"
         type="application/pdf"
         width="100%"
         height="100%"
       >
         <iframe
-          src="static/pdf/nathan-neumann-resume-eng.pdf"
+          src="../static/pdf/nathan-neumann-resume-eng.pdf"
           width="100%"
           height="100%"
           style={{ border: "none" }}
         >
           This browser does not support PDFs. Please download the PDF to view
-          it:{" "}
-          <a href="/static/pdf/nathan-neumann-resume-eng.pdf">Download PDF</a>
+          it:&nbsp;
+          <a href="../static/pdf/nathan-neumann-resume-eng.pdf">Download PDF</a>
         </iframe>
       </object>
     </div>
   );
 };
 
-export default translate("projects")(Resume);
+export default Resume;

@@ -1,14 +1,13 @@
-import { translate } from "react-i18next";
 import Link from "next/link";
 
-const Navbar = ({ currentPage, t }) => {
+const Navbar = ({ currentPage, jp }) => {
   function navItemCurrent(destination) {
     return destination == currentPage ? "active" : "";
   }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <Link href="/">
+      <Link href={jp ? "/jp" : "/"}>
         <a className="navbar-brand">soph-iest</a>
       </Link>
       <button
@@ -26,31 +25,31 @@ const Navbar = ({ currentPage, t }) => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link href="/">
+            <Link href={jp ? "/jp" : "/"}>
               <a className={"nav-link " + navItemCurrent("/")}>
-                {t("navigation:home")}
+                {jp ? "トップ" : "home"}
                 <span className="sr-only">(current)</span>
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/about">
+            <Link href={jp ? "/about/jp" : "/about"}>
               <a className={"nav-link " + navItemCurrent("/about")}>
-                {t("navigation:about")}
+                {jp ? "私について" : "about"}
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/projects">
+            <Link href={jp ? "/projects/jp" : "/projects"}>
               <a className={"nav-link " + navItemCurrent("/projects")}>
-                {t("navigation:projects")}
+                {jp ? "プロジェクト" : "projects"}
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/resume">
+            <Link href={jp ? "/resume/jp" : "/resume"}>
               <a className={"nav-link " + navItemCurrent("/resume")}>
-                {t("navigation:resume")}
+                {jp ? "履歴書" : "résumé"}
               </a>
             </Link>
           </li>
@@ -64,7 +63,7 @@ const Navbar = ({ currentPage, t }) => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              {t("navigation:other")}
+              {jp ? "私の他のページ" : "external pages"}
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               {/* <Link href="/page1">
@@ -74,7 +73,7 @@ const Navbar = ({ currentPage, t }) => {
                 className="dropdown-item"
                 href="https://journeys.dartmouth.edu/nneumann/"
               >
-                {t("navigation:data")} <span />{" "}
+                {jp ? "可視化ブログ" : "data visualization"} <span />{" "}
                 <i className="far fa-chart-bar" />
               </a>
               <div className="dropdown-divider" />
@@ -89,11 +88,18 @@ const Navbar = ({ currentPage, t }) => {
             </div>
           </li>
           <li className="nav-item">
+            <Link href={jp ? "/contact/jp" : "/contact"}>
+              <a className={"nav-link " + navItemCurrent("/contact")}>
+                {jp ? "お問い合わせ" : "contact"}
+              </a>
+            </Link>
+          </li>
+          <li className="nav-item">
             <a
               className="nav-link lang-link active"
-              href={t("navigation:switch-lang-link")}
+              href={jp ? currentPage : currentPage + "/jp"}
             >
-              {t("navigation:switch-lang")}
+              {jp ? "english" : "日本語"}
             </a>
           </li>
         </ul>
@@ -102,4 +108,4 @@ const Navbar = ({ currentPage, t }) => {
   );
 };
 
-export default translate("navigation")(Navbar);
+export default Navbar;

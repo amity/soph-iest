@@ -1,14 +1,11 @@
-import { translate } from "react-i18next";
-
 let Carousel = props => {
-  let t = props.t;
   return (
     <div
       id="carouselExampleIndicators"
       className="carousel slide"
       data-ride="carousel"
     >
-      <ol className="carousel-indicators">
+      <ol className="carousel-indicators indicators-top">
         <li
           data-target="#carouselExampleIndicators"
           data-slide-to="0"
@@ -19,18 +16,39 @@ let Carousel = props => {
       </ol>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="d-block w-100" src={props.img1} alt="First slide" />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>{t("projects:carousel-header-1")}</h5>
-            <p>{t("projects:carousel-descrip-1")}</p>
-          </div>
+          <a
+            className="carousel-item-link"
+            href="https://github.com/NateNeumann/purrpl-api"
+            target="blank"
+          >
+            <img className="d-block w-100" src={props.img1} alt="First slide" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>purrpl: a self-care app featuring cats</h5>
+              <p>
+                Client created with React Native, API with Express and MongoDB
+              </p>
+            </div>
+          </a>
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={props.img2} alt="Second slide" />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>{t("projects:carousel-header-2")}</h5>
-            <p>{t("projects:carousel-descrip-2")}</p>
-          </div>
+          <a
+            className="carousel-item-link"
+            href="https://github.com/NateNeumann/RoomKit"
+            target="blank"
+          >
+            <img
+              className="d-block w-100"
+              src={props.img2}
+              alt="Second slide"
+            />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>
+                MuseumTour: experimental live location-sensing implementation
+                using Bluetooth beacons
+              </h5>
+              <p>Client built natively for Android devices</p>
+            </div>
+          </a>
         </div>
         <div className="carousel-item">
           <a
@@ -40,8 +58,8 @@ let Carousel = props => {
           >
             <img className="d-block w-100" src={props.img3} alt="Third slide" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>{t("projects:carousel-header-3")}</h5>
-              <p>{t("projects:carousel-descrip-3")}</p>
+              <h5>Check out my GitHub to see my other projects!</h5>
+              <p>Chrome extensions, Electron apps, tutorials, and more!</p>
             </div>
           </a>
         </div>
@@ -73,4 +91,4 @@ let Carousel = props => {
   );
 };
 
-export default translate("projects")(Carousel);
+export default Carousel;

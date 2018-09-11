@@ -6,7 +6,8 @@ const aliases = {
   root: path.resolve(__dirname),
   components: path.resolve(__dirname, "components"),
   data: path.resolve(__dirname, "components/data"),
-  utils: path.resolve(__dirname, "utils")
+  utils: path.resolve(__dirname, "utils"),
+  scss: path.resolve(__dirname, "scss")
 };
 
 module.exports = withCSS(
@@ -28,6 +29,7 @@ module.exports = withCSS(
       };
 
       return config;
-    }
+    },
+    assetPrefix: process.env.NODE_ENV === "production" ? "/soph-iest" : ""
   })
 );
