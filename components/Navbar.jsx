@@ -26,7 +26,7 @@ const Navbar = ({ currentPage, jp }) => {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
             <Link href={jp ? "/jp" : "/"}>
-              <a className={"nav-link " + navItemCurrent("/")}>
+              <a className={"nav-link " + navItemCurrent("")}>
                 {jp ? "トップ" : "home"}
                 <span className="sr-only">(current)</span>
               </a>

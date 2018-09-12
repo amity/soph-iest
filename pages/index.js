@@ -4,7 +4,7 @@ import Home from "components/Home";
 import "scss/app.scss";
 
 const HomePage = () => (
-  <Layout title="soph-iest" currentPage="/">
+  <Layout title="soph-iest" currentPage="">
     <Home />
   </Layout>
 );
