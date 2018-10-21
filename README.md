@@ -1,4 +1,5 @@
 # soph-iest -- personal website
+Deployed at www.soph-iest.me.
 
 ## Building + Deployment
 
