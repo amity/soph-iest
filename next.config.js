@@ -30,6 +30,7 @@ module.exports = withCSS(
 
       return config;
     },
-    assetPrefix: process.env.NODE_ENV === "production" ? "/soph-iest" : ""
+    assetPrefix: ""
+    // assetPrefix: process.env.NODE_ENV === "production" ? "/soph-iest" : ""
   })
 );
