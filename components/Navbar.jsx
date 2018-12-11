@@ -69,19 +69,7 @@ const Navbar = ({ currentPage, jp }) => {
               {/* <Link href="/page1">
                 <a className="dropdown-item">Another Site</a>
               </Link> */}
-              <a
-                className="dropdown-item"
-                href="https://journeys.dartmouth.edu/nneumann/"
-              >
-                {jp ? "可視化ブログ" : "data visualization"} <span />{" "}
-                <i className="far fa-chart-bar" />
-              </a>
-              <div className="dropdown-divider" />
-
-              <a
-                className="dropdown-item"
-                href="https://github.com/NateNeumann/"
-              >
+              <a className="dropdown-item" href="https://github.com/soph-iest/">
                 github <span />
                 <i className="fab fa-github" />
               </a>
