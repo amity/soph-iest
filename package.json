@@ -3,6 +3,7 @@
   "repository": "github.com/soph-iest/soph-iest",
   "version": "1.0.0",
   "main": "server.js",
+  "engines": {"node": ">=8.0.0"},
   "license": "MIT",
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
