@@ -73,14 +73,6 @@ const Footer = ({ jp }) => {
                     github
                   </a>
                 </li>
-                <li>
-                  <a
-                    className="footer-link"
-                    href="https://twitter.com/soph_iest"
-                  >
-                    twitter
-                  </a>
-                </li>
               </ul>
             </div>
             {/* Grid column */}
