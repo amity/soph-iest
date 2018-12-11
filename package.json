@@ -1,5 +1,6 @@
 {
   "name": "soph-iest",
+  "repository": "github.com/soph-iest/soph-iest",
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
