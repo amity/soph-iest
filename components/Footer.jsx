@@ -76,14 +76,6 @@ const Footer = ({ jp }) => {
                 <li>
                   <a
                     className="footer-link"
-                    href="https://www.linkedin.com/in/natejneumann/"
-                  >
-                    linkedin
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="footer-link"
                     href="https://twitter.com/soph_iest"
                   >
                     twitter
