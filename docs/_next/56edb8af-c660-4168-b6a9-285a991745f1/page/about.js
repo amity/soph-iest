@@ -27,7 +27,7 @@ module.exports = __NEXT_REGISTER_PAGE("/about", function() {
                   n.a.createElement(
                     "p",
                     null,
-                    "I'm an American freelance software developer who goes by Sophie Debs. When I have the time, I make fun little tools; when I have more time, I make mobile apps. When I have assignments, or, you know, can't quite get Electron working right for some reason, I make web projects too.",
+                    "I, AKA Sophie Debs, am an American freelance software developer. When I have the time, I make fun little tools; when I have more time, I make mobile apps. When I have assignments, or, you know, can't quite get Electron working right for some reason, I make web projects too.",
                     n.a.createElement("br", null),
                     " My preferred languages are English, Java, and JavaScript, but I am also fluent in Japanese, Python, C, CSS, HTML, gibberish, and internet gaming trash talk (which in fairness, is mostly English, but I think they're disparate enough to count twice.)"
                   )
