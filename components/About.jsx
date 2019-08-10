@@ -61,7 +61,7 @@ const About = ({ jp }) => {
           {jp
             ? "プログラマーや生徒の外に、私は"
             : "In addition to a software developer and a student, I'm a "}
-          <a href="https://open.spotify.com/user/1239082952">
+          <a href="https://open.spotify.com/user/ft4litxmgmewyv5kmt4nwkszv">
             {jp ? "音楽のファン" : "huge music fan"}
           </a>
           {jp

@@ -100,7 +100,7 @@ module.exports = __NEXT_REGISTER_PAGE("/about", function() {
                     " ",
                     n.a.createElement(
                       "a",
-                      { href: "https://open.spotify.com/user/1239082952" },
+                      { href: "https://open.spotify.com/user/ft4litxmgmewyv5kmt4nwkszv" },
                       "huge music fan"
                     ),
                     ", philosopher, political advocate, and gamer.",
