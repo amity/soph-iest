@@ -3,7 +3,7 @@ Deployed at www.soph-iest.me.
 
 ## Building + Deployment
 
-- Built with `yarn build`, and exported to /docs/ with `yarn export`. FYou really shouldn't be editing the /docs/ directory manually, as it's simply the static exports of the full build used for deployment.
+- Built with `yarn build`, and exported to /docs/ with `yarn export`. You really shouldn't be editing the /docs/ directory manually, as it's simply the static exports of the full build used for deployment.
 
 ## Tech Stack
 
