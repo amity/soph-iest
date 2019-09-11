@@ -23,7 +23,7 @@
     "dev": "NODE_ENV=development node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "export": "next export"
+    "export": "next export -o docs"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",

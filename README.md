@@ -3,7 +3,7 @@ Deployed at www.soph-iest.me.
 
 ## Building + Deployment
 
-- Built with `yarn build`, and exported to /out/ with `yarn export`. For deployment with GitHub pages, you'll have to rename /out/ to /docs/. You really shouldn't be editing the /docs/ or /out/ folders manually, as they're simply the static exportations of the full build.
+- Built with `yarn build`, and exported to /docs/ with `yarn export`. FYou really shouldn't be editing the /docs/ directory manually, as it's simply the static exports of the full build used for deployment.
 
 ## Tech Stack
 
