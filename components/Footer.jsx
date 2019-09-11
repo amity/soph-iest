@@ -76,7 +76,7 @@ const Footer = ({ jp }) => {
                 <li>
                   <a
                     className="footer-link"
-                    href="https://www.linkedin.com/in/natejneumann/"
+                    href="https://www.linkedin.com/in/soph-iest/"
                   >
                     linkedin
                   </a>
