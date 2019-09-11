@@ -84,7 +84,7 @@ const Footer = ({ jp }) => {
                 <li>
                   <a
                     className="footer-link"
-                    href="https://twitter.com/soph_iest"
+                    href="https://youtu.be/dQw4w9WgXcQ"
                   >
                     twitter
                   </a>

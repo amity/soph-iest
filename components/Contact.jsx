@@ -14,7 +14,7 @@ const Contact = ({ jp }) => {
         {jp
           ? "もし興味あれば、Twitterで"
           : "If you want to see my garbage video game posts, you can also follow me　on twitter at　"}
-        <a href="https://twitter.com/soph_iest">@soph_iest</a>
+        <a href="https://youtu.be/dQw4w9WgXcQ">@nggyu</a>
         {jp
           ? "をフォローできる。"
           : ", but Ill　warn you that it's not very interesting."}
