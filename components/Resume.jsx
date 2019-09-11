@@ -9,36 +9,20 @@ const Resume = ({ jp }) => {
       </h4>
       <object
         className="pdf-object"
-        data={
-          jp
-            ? "../../static/pdf/nathan-neumann-resume-eng.pdf"
-            : "../static/pdf/nathan-neumann-resume-eng.pdf"
-        }
+        data={"../../static/pdf/resume.pdf"}
         type="application/pdf"
         width="100%"
         height="100%"
       >
         <iframe
-          src={
-            jp
-              ? "../../static/pdf/nathan-neumann-resume-eng.pdf"
-              : "../static/pdf/nathan-neumann-resume-eng.pdf"
-          }
+          src={"../static/pdf/resume.pdf"}
           width="100%"
           height="100%"
           style={{ border: "none" }}
         >
           This browser does not support PDFs. Please download the PDF to view
           it:&nbsp;
-          <a
-            href={
-              jp
-                ? "../../static/pdf/nathan-neumann-resume-eng.pdf"
-                : "../static/pdf/nathan-neumann-resume-eng.pdf"
-            }
-          >
-            Download PDF
-          </a>
+          <a href={"../../static/pdf/resume.pdf"}>Download PDF</a>
         </iframe>
       </object>
     </div>
