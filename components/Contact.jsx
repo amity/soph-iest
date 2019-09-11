@@ -13,11 +13,11 @@ const Contact = ({ jp }) => {
       <h5 className="greyscale-3">
         {jp
           ? "もし興味あれば、Twitterで"
-          : "If you want to see my garbage video game posts, you can also follow me　on twitter at　"}
+          : "If you want to see my garbage posts, you can also follow me on twitter at "}
         <a href="https://youtu.be/dQw4w9WgXcQ">@nggyu</a>
         {jp
           ? "をフォローできる。"
-          : ", but Ill　warn you that it's not very interesting."}
+          : ", but I'll warn you that it's not very interesting."}
       </h5>
     </div>
   );
