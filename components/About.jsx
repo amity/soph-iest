@@ -7,7 +7,7 @@ const About = ({ jp }) => {
         </h3>
         <p>
           {jp
-            ? "私は、アメリカ人のプログラマーです。名前は、Sophie Debs　（ソフィー・デブズ（そのズを忘れないでください））、または Nate Neumann（ネイト・ニューマン）だ。暇なときに、小さいツールを作る；もっと時間があれば、携帯アプリも作る。ソフトウェアやwebのプログラミングも好き。"
+            ? "私は、アメリカ人のプログラマーです。名前は、Sophie Debs　（ソフィー・デブズ（そのズを忘れないでください））、または Sophie Neumann（ソフィー・ニューマン）だ。暇なときに、小さいツールを作る；もっと時間があれば、携帯アプリも作る。ソフトウェアやwebのプログラミングも好き。"
             : "I, also known as Sophie Debs or Sophie Neumann, am an American freelance software developer. When I have the time, I make fun little tools; when I have more time, I make mobile apps. When I have assignments, or, you know, can't quite get Electron working right for some reason, I make web projects too."}
           <br />{" "}
           {jp
