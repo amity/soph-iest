@@ -19,7 +19,6 @@
     "url-loader": "^1.0.1"
   },
   "scripts": {
-    "postinstall": "concurrently \"yarn build\" \"yarn migrate:latest\"",
     "dev": "NODE_ENV=development node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
