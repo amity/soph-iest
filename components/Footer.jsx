@@ -16,7 +16,7 @@ const Footer = ({ jp }) => {
                 supported by a translation-friendly structure for static sites I
                 developed for personal use. <br />
                 The full source code can be seen in{" "}
-                <a href="https://github.com/soph-iest/soph-iest">
+                <a href="https://github.com/amity/soph-iest">
                   the site repo.
                 </a>
               </p>
@@ -68,7 +68,7 @@ const Footer = ({ jp }) => {
                 <li>
                   <a
                     className="footer-link"
-                    href="https://www.github.com/soph-iest"
+                    href="https://www.github.com/amity"
                   >
                     github
                   </a>

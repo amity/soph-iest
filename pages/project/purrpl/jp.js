@@ -6,7 +6,7 @@ import "scss/app.scss";
 const Purrpl = () => {
   let purrplData = {
     name: "purrpl",
-    github: "https://github.com/soph-iest/purrpl-api"
+    github: "https://github.com/amity/purrpl-api"
   };
   return (
     <Layout jp={true} title="purrpl" currentPage="/projects">

@@ -18,7 +18,7 @@ let Carousel = props => {
         <div className="carousel-item active">
           <a
             className="carousel-item-link"
-            href="https://github.com/soph-iest/purrpl-api"
+            href="https://github.com/amity/purrpl-api"
             target="blank"
           >
             <img className="d-block w-100" src={props.img1} alt="First slide" />
@@ -33,7 +33,7 @@ let Carousel = props => {
         <div className="carousel-item">
           <a
             className="carousel-item-link"
-            href="https://github.com/soph-iest/RoomKit"
+            href="https://github.com/amity/RoomKit"
             target="blank"
           >
             <img
@@ -53,7 +53,7 @@ let Carousel = props => {
         <div className="carousel-item">
           <a
             className="carousel-item-link"
-            href="https://www.github.com/soph-iest"
+            href="https://www.github.com/amity"
             target="blank"
           >
             <img className="d-block w-100" src={props.img3} alt="Third slide" />

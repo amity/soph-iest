@@ -80,7 +80,7 @@ const Navbar = ({ currentPage, jp }) => {
 
               <a
                 className="dropdown-item"
-                href="https://github.com/soph-iest/"
+                href="https://github.com/amity/"
               >
                 github <span />
                 <i className="fab fa-github" />
