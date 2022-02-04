@@ -71,7 +71,7 @@ const Navbar = ({ currentPage, jp }) => {
               </Link> */}
               <a
                 className="dropdown-item"
-                href="https://journeys.dartmouth.edu/nneumann/"
+                href="https://journeys.dartmouth.edu/sophiest/"
               >
                 {jp ? "可視化ブログ" : "data visualization"} <span />{" "}
                 <i className="far fa-chart-bar" />
